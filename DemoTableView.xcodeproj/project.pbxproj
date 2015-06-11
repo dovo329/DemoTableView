@@ -10,10 +10,17 @@
 		0155E2E81B29E671007FAB89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155E2E71B29E671007FAB89 /* main.m */; };
 		0155E2EB1B29E671007FAB89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155E2EA1B29E671007FAB89 /* AppDelegate.m */; };
 		0155E2EE1B29E671007FAB89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155E2ED1B29E671007FAB89 /* ViewController.m */; };
-		0155E2F11B29E671007FAB89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0155E2EF1B29E671007FAB89 /* Main.storyboard */; };
 		0155E2F31B29E671007FAB89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0155E2F21B29E671007FAB89 /* Images.xcassets */; };
 		0155E2F61B29E671007FAB89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0155E2F41B29E671007FAB89 /* LaunchScreen.xib */; };
 		0155E3021B29E671007FAB89 /* DemoTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155E3011B29E671007FAB89 /* DemoTableViewTests.m */; };
+		0155E3121B29E696007FAB89 /* UIView+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155E30E1B29E696007FAB89 /* UIView+FLKAutoLayout.m */; };
+		0155E3131B29E696007FAB89 /* UIView+FLKAutoLayoutPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155E3101B29E696007FAB89 /* UIView+FLKAutoLayoutPredicate.m */; };
+		0155E3171B29E718007FAB89 /* FLKAutoLayoutPredicateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155E3161B29E718007FAB89 /* FLKAutoLayoutPredicateList.m */; };
+		0155E31A1B29EA32007FAB89 /* Demographics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155E3191B29EA32007FAB89 /* Demographics.m */; };
+		0155E31D1B29EE23007FAB89 /* TextfieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155E31C1B29EE23007FAB89 /* TextfieldTableViewCell.m */; };
+		0155E3201B29EFFF007FAB89 /* GenderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155E31F1B29EFFF007FAB89 /* GenderTableViewCell.m */; };
+		0155E3231B29F1D4007FAB89 /* MaritalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155E3221B29F1D4007FAB89 /* MaritalTableViewCell.m */; };
+		0155E3261B29F2C1007FAB89 /* DemographicsTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155E3251B29F2C1007FAB89 /* DemographicsTableViewDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +41,27 @@
 		0155E2EA1B29E671007FAB89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0155E2EC1B29E671007FAB89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0155E2ED1B29E671007FAB89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0155E2F01B29E671007FAB89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0155E2F21B29E671007FAB89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0155E2F51B29E671007FAB89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0155E2FB1B29E671007FAB89 /* DemoTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0155E3001B29E671007FAB89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0155E3011B29E671007FAB89 /* DemoTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewTests.m; sourceTree = "<group>"; };
+		0155E30D1B29E696007FAB89 /* UIView+FLKAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FLKAutoLayout.h"; sourceTree = "<group>"; };
+		0155E30E1B29E696007FAB89 /* UIView+FLKAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FLKAutoLayout.m"; sourceTree = "<group>"; };
+		0155E30F1B29E696007FAB89 /* UIView+FLKAutoLayoutPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FLKAutoLayoutPredicate.h"; sourceTree = "<group>"; };
+		0155E3101B29E696007FAB89 /* UIView+FLKAutoLayoutPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FLKAutoLayoutPredicate.m"; sourceTree = "<group>"; };
+		0155E3151B29E718007FAB89 /* FLKAutoLayoutPredicateList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKAutoLayoutPredicateList.h; sourceTree = "<group>"; };
+		0155E3161B29E718007FAB89 /* FLKAutoLayoutPredicateList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKAutoLayoutPredicateList.m; sourceTree = "<group>"; };
+		0155E3181B29EA32007FAB89 /* Demographics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demographics.h; sourceTree = "<group>"; };
+		0155E3191B29EA32007FAB89 /* Demographics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demographics.m; sourceTree = "<group>"; };
+		0155E31B1B29EE23007FAB89 /* TextfieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextfieldTableViewCell.h; sourceTree = "<group>"; };
+		0155E31C1B29EE23007FAB89 /* TextfieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextfieldTableViewCell.m; sourceTree = "<group>"; };
+		0155E31E1B29EFFF007FAB89 /* GenderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenderTableViewCell.h; sourceTree = "<group>"; };
+		0155E31F1B29EFFF007FAB89 /* GenderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenderTableViewCell.m; sourceTree = "<group>"; };
+		0155E3211B29F1D4007FAB89 /* MaritalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaritalTableViewCell.h; sourceTree = "<group>"; };
+		0155E3221B29F1D4007FAB89 /* MaritalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaritalTableViewCell.m; sourceTree = "<group>"; };
+		0155E3241B29F2C1007FAB89 /* DemographicsTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemographicsTableViewDataSource.h; sourceTree = "<group>"; };
+		0155E3251B29F2C1007FAB89 /* DemographicsTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemographicsTableViewDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +107,19 @@
 				0155E2EA1B29E671007FAB89 /* AppDelegate.m */,
 				0155E2EC1B29E671007FAB89 /* ViewController.h */,
 				0155E2ED1B29E671007FAB89 /* ViewController.m */,
-				0155E2EF1B29E671007FAB89 /* Main.storyboard */,
+				0155E3181B29EA32007FAB89 /* Demographics.h */,
+				0155E3191B29EA32007FAB89 /* Demographics.m */,
+				0155E31B1B29EE23007FAB89 /* TextfieldTableViewCell.h */,
+				0155E31C1B29EE23007FAB89 /* TextfieldTableViewCell.m */,
+				0155E31E1B29EFFF007FAB89 /* GenderTableViewCell.h */,
+				0155E31F1B29EFFF007FAB89 /* GenderTableViewCell.m */,
+				0155E3211B29F1D4007FAB89 /* MaritalTableViewCell.h */,
+				0155E3221B29F1D4007FAB89 /* MaritalTableViewCell.m */,
+				0155E3241B29F2C1007FAB89 /* DemographicsTableViewDataSource.h */,
+				0155E3251B29F2C1007FAB89 /* DemographicsTableViewDataSource.m */,
 				0155E2F21B29E671007FAB89 /* Images.xcassets */,
 				0155E2F41B29E671007FAB89 /* LaunchScreen.xib */,
+				0155E3141B29E69A007FAB89 /* FLKAutoLayout */,
 				0155E2E51B29E671007FAB89 /* Supporting Files */,
 			);
 			path = DemoTableView;
@@ -117,6 +149,19 @@
 				0155E3001B29E671007FAB89 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0155E3141B29E69A007FAB89 /* FLKAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0155E3151B29E718007FAB89 /* FLKAutoLayoutPredicateList.h */,
+				0155E3161B29E718007FAB89 /* FLKAutoLayoutPredicateList.m */,
+				0155E30D1B29E696007FAB89 /* UIView+FLKAutoLayout.h */,
+				0155E30E1B29E696007FAB89 /* UIView+FLKAutoLayout.m */,
+				0155E30F1B29E696007FAB89 /* UIView+FLKAutoLayoutPredicate.h */,
+				0155E3101B29E696007FAB89 /* UIView+FLKAutoLayoutPredicate.m */,
+			);
+			name = FLKAutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0155E2F11B29E671007FAB89 /* Main.storyboard in Resources */,
 				0155E2F61B29E671007FAB89 /* LaunchScreen.xib in Resources */,
 				0155E2F31B29E671007FAB89 /* Images.xcassets in Resources */,
 			);
@@ -220,8 +264,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0155E2EE1B29E671007FAB89 /* ViewController.m in Sources */,
+				0155E3261B29F2C1007FAB89 /* DemographicsTableViewDataSource.m in Sources */,
+				0155E3171B29E718007FAB89 /* FLKAutoLayoutPredicateList.m in Sources */,
+				0155E3131B29E696007FAB89 /* UIView+FLKAutoLayoutPredicate.m in Sources */,
 				0155E2EB1B29E671007FAB89 /* AppDelegate.m in Sources */,
+				0155E3231B29F1D4007FAB89 /* MaritalTableViewCell.m in Sources */,
+				0155E3201B29EFFF007FAB89 /* GenderTableViewCell.m in Sources */,
+				0155E3121B29E696007FAB89 /* UIView+FLKAutoLayout.m in Sources */,
+				0155E31A1B29EA32007FAB89 /* Demographics.m in Sources */,
 				0155E2E81B29E671007FAB89 /* main.m in Sources */,
+				0155E31D1B29EE23007FAB89 /* TextfieldTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +296,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0155E2EF1B29E671007FAB89 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0155E2F01B29E671007FAB89 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0155E2F41B29E671007FAB89 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
